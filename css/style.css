@@ -1,0 +1,146 @@
+.tout_les_produits {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .tout_les_produits {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    body {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    main {
+        margin-left: 25px;
+        margin-right: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+
+
+.CADRE {
+    border-radius: 1px;
+    width: 100%;
+    /* padding: 10px; */
+    margin-bottom: 18px;
+
+
+}
+
+.produits {
+    /* padding: 10px; */
+    padding-left: 10px;
+    display: flex;
+
+}
+
+.produits img {
+    width: 100%;
+    height: 18em;
+    object-fit: cover;
+    display: block;
+}
+
+.image_produit{
+    width: 100%;
+    height: 200px;
+}
+   
+.infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.infos h3 {
+    margin: 0;
+
+}
+
+.infos samp {
+    font-weight: bold;
+}
+
+.category {
+    margin-top: 8px;
+    margin-bottom: 1px;
+    margin-left: 20px;
+}
+
+.car {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.etoiles {
+
+    display: flex;
+    margin: 8px 0;
+    gap: 2px;
+    margin-left: 20px;
+}
+
+.etoiles img {
+    width: 15px;
+
+}
+
+.prix_panier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .prix_panier samp{
+    justify-content: space-around;
+    border: solid red;
+    align-items: center;
+}
+ */
+
+
+.panier img {
+    width: 25px;
+    margin-right: 20px;
+}
+
+.panier p {
+    margin-top: -28px;
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 0.78em;
+
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+
+}

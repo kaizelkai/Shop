@@ -1,0 +1,504 @@
+.powered span {
+    font-weight: bold;
+}
+
+@media (min-width: 700px) {
+    .espaces {
+        margin-right: 4px;
+    }
+
+    .allFilter {
+        display: block;
+        margin-top: -18px;
+        margin-right: 10px;
+    }
+
+    .espaces h4 {
+        color: rgb(83, 83, 83);
+        margin-left: 15px;
+    }
+
+    .filter .bestMatch1 {
+        display: flex;
+        margin-left: 11px;
+        color: rgb(0, 0, 0);
+        list-style-type: none;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0.14rem solid rgb(192, 190, 190);
+        font-size: 1.2rem;
+        line-height: 147.6%;
+        padding-top: 0.825rem;
+        padding-bottom: 0.5rem;
+        width: 100%;
+    }
+
+    .filter {
+        margin-top: 15px;
+    }
+
+    .menuBt {
+        font-size: 36px;
+        color: black;
+        display: none;
+    }
+
+    .mlog {
+        display: none;
+    }
+
+    .llog {
+        display: block;
+    }
+
+    header {
+        margin-top: -8px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .ka nav {
+        display: flex;
+    }
+
+    .ka .logo {
+        width: 75px;
+        height: 75px;
+    }
+
+    nav ul {
+        display: contents;
+
+
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 10px;
+        margin-top: 15px;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        /* font-weight: bold; */
+        text-align: center;
+        list-style-type: none;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(2, 2, 2);
+    }
+
+    nav .kapanier {
+        display: flex;
+        margin-left: auto;
+        margin-top: 15px;
+        padding: 10px 0px 10px 10px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        list-style-type: none;
+
+
+    }
+
+    nav .kapanier a {
+        margin-top: px;
+        margin-left: 50px;
+        text-decoration: none;
+        color: rgb(2, 2, 2);
+    }
+
+    .kapanier img {
+        width: 25px;
+        height: 25px;
+    }
+
+
+    .kabSearchContent .kabSearch {
+        display: inline-flex;
+        margin: 10px;
+        margin-top: 13px;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        text-align: center;
+        list-style-type: none;
+
+    }
+
+    .kabSearchContent .linlin {
+        width: 60vw;
+        margin-left: 30px;
+        display: inline-flex;
+        margin-top: -1px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        text-align: center;
+        list-style-type: none;
+        border-bottom: 0.125rem solid black;
+
+    }
+
+
+    .kabSearchContent .kabSearch .kabSearchSection {
+        display: flex;
+        text-align: center;
+        list-style-type: none;
+        color: rgb(0, 0, 0);
+
+    }
+
+    .kabSearch img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .kabSearchSection input {
+        margin-top: -10px;
+        border: none;
+        width: 100%;
+        height: 2rem;
+        font-size: 1.5rem;
+        line-height: 147.6%;
+        padding-top: 0.825rem;
+        padding-bottom: 0.5rem;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    .powered {
+        display: flex;
+        text-align: center;
+        list-style-type: none;
+        color: rgb(0, 0, 0);
+        font-size: 0.8rem;
+        margin-left: auto;
+    }
+
+    .powered img {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+
+    .kabSearchContent {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .bestMatch {
+        display: flex;
+        margin-left: auto;
+        margin-top: 15px;
+        color: rgb(0, 0, 0);
+        list-style-type: none;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0.124rem solid rgb(192, 190, 190);
+        font-size: 1.5rem;
+        line-height: 147.6%;
+        padding-top: 0.825rem;
+        padding-bottom: 0.5rem;
+        min-width: 140px;
+        width: 20vw;
+    }
+
+    select:focus {
+        outline: none;
+    }
+
+    .ficters {
+        display: block;
+    }
+
+    .ficterMobile {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .espaces{
+    margin-right: 15px;
+}
+    header {
+        margin-top: -8px;
+        margin-right: 10px;
+        margin-left: -15px;
+    }
+
+    .ka nav {
+        display: flex;
+    }
+
+    .ka .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .menuBt {
+        margin-top: 15px;
+        font-size: 36px;
+        color: black;
+        display: block;
+        z-index: 10000;
+        cursor: pointer;
+    }
+
+    .navBar.active {
+        display: block;
+        z-index: 100;
+    }
+
+    .mlog {
+        display: block;
+    }
+
+    .llog {
+        display: none;
+    }
+
+
+    nav ul {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navBar {
+        background-color: rgb(255, 255, 255);
+
+        position: absolute;
+        width: 100%;
+        margin-top: 65px;
+        border-bottom: 0.2rem solid rgb(239, 238, 238);
+        justify-content: center;
+        display: none;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 10px;
+        margin-top: 15px;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        /* font-weight: bold; */
+        text-align: center;
+        list-style-type: none;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(2, 2, 2);
+    }
+
+    nav .kapanier {
+        display: flex;
+        margin-left: auto;
+        margin-top: 15px;
+        padding: 10px 0px 10px 10px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        list-style-type: none;
+
+
+    }
+
+    nav .kapanier a {
+        margin-top: px;
+        margin-left: 50px;
+        text-decoration: none;
+        color: rgb(2, 2, 2);
+    }
+
+    .kapanier img {
+        width: 25px;
+        height: 25px;
+        margin-right: 45px;
+    }
+
+
+    .kabSearchContent .kabSearch {
+        display: inline-flex;
+        margin: 10px;
+        margin-top: 13px;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        text-align: center;
+        list-style-type: none;
+
+    }
+
+    .kabSearchContent .linlin {
+        width: 85vw;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -1px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        text-align: center;
+        list-style-type: none;
+
+
+    }
+
+
+    .kabSearchContent .kabSearch .kabSearchSection {
+        display: flex;
+        text-align: center;
+        list-style-type: none;
+        color: rgb(0, 0, 0);
+
+    }
+
+    .kabSearch img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .kabSearchSection input {
+        margin-top: -20px;
+        border: none;
+        width: 80vw;
+        height: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        line-height: 147.6%;
+        padding-bottom: 0.5rem;
+        border-bottom: 0.2rem solid black;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    .powered {
+        display: flex;
+        text-align: center;
+        list-style-type: none;
+        color: rgb(0, 0, 0);
+        font-size: 0.8rem;
+        margin-left: auto;
+    }
+
+    .powered img {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+
+    .kabSearchContent {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .bestMatch {
+        display: flex;
+        margin-left: 25px;
+        margin-top: -25px;
+        color: rgb(0, 0, 0);
+        list-style-type: none;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0.14rem solid rgb(192, 190, 190);
+        font-size: 1.2rem;
+        line-height: 147.6%;
+        padding-top: 0.825rem;
+        padding-bottom: 0.5rem;
+        width: 93vw;
+    }
+
+    select:focus {
+        outline: none;
+    }
+
+    .allFilter {
+        display: none;
+    }
+
+    .allFilter.active {
+        display: block;
+        margin-bottom: 18px;
+    }
+
+    .ficterMobile.active {
+        color: rgb(172, 171, 171);
+        border-bottom: 0.14rem solid rgb(236, 228, 228);
+    }
+
+    .espaces h4 {
+        color: rgb(83, 83, 83);
+        margin-left: 15px;
+        width: 93vw;
+        cursor: pointer;
+        border-bottom: 0.14rem solid rgb(192, 190, 190);
+    }
+
+    .filter .bestMatch1 {
+        display: flex;
+        margin-left: 11px;
+        color: rgb(0, 0, 0);
+        list-style-type: none;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0.14rem solid rgb(192, 190, 190);
+        font-size: 1.2rem;
+        line-height: 147.6%;
+        padding-top: 0.825rem;
+        padding-bottom: 0.5rem;
+        width: 100%;
+    }
+
+
+    .CADRE {
+        display: none;
+    }
+
+    .CADRE.active {
+        display: block;
+    }
+
+    .link {
+        display: none;
+    }
+
+    .link.mob {
+        display: flex;
+    }
+
+    .ficters {
+        display: none;
+    }
+
+    .ficterMobile {
+        display: block;
+    }
+
+    span.fil {
+        right: 0;
+        margin-left: 83%;
+
+    }
+
+    span svg {
+        width: 16px;
+        height: 16px;
+        margin-bottom: -4px;
+        rotate: -90deg;
+        z-index: 0;
+    }
+
+}
